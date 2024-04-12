@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  background-color: hwb(0 96% 4%);
+  user-select: none;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  align-items: center;
+  margin-top: 30%;
+}
+
+.App,
+.Button {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+.Button {
+  font-size: 1.2em;
+  border: none;
+  background-color: #05009e;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.Button:hover {
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* different colors for buttons*/
+.easy {
+  background-color: #009e28;
+}
+
+.medium {
+  background-color: #eea004;
+  color: #0e0e0e;
+}
+
+.hard {
+    background-color: #9e0000;
+}
